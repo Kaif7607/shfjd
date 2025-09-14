@@ -19,7 +19,7 @@ ADMINS = [int(x) for x in os.environ.get("ADMINS", "5504044604").split()]  # Def
 # Channel Configuration
 PREMIUM_CHANNEL = "https://t.me/svnpgc_bot"
 # Thumbnail Configuration
-THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://files.catbox.moe/fh731v.jpg").split())) # Image Link For Default Thumbnail 
+THUMBNAILS = list(map(str, os.environ.get("THUMBNAILS", "https://files.catbox.moe/ng9n3i.jpg").split())) # Image Link For Default Thumbnail 
 
 # Web Server Configuration
 WEB_SERVER = os.environ.get("WEB_SERVER", "False").lower() == "true"
@@ -59,6 +59,7 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
 
