@@ -8,8 +8,8 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "8293673057:AAGnSktbbOmNg6GtICG47htI2DQ9
 
 CREDIT = os.environ.get("CREDIT", "@DEARJOHNAD")
 # MongoDB Configuration
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "DevThanos")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Dev-Thanos")  # Add your own atlas db
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "sample_mflix")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb://atlas-sql-68bf3114bcdd8c2c342b8da5-pzojqe.a.query.mongodb.net/sample_mflix?ssl=true&authSource=admin")  # Add your own atlas db
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
@@ -59,6 +59,7 @@ Please contact the admin @dearjohnad to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
 
